@@ -97,7 +97,7 @@ Open cmd and go to `labelImg <#labelimg>`__ directory
 
 .. code::
 
-    pyrcc4 -o resources.py resources.qrc
+    pyrcc4 -py3 -o resources.py resources.qrc
     python labelImg.py
     python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
